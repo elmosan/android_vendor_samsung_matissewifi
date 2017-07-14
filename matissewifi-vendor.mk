@@ -17,11 +17,11 @@
 
 # Qualcomm framework
 PRODUCT_COPY_FILES += \
-    vendor/samsung/matissewifi/proprietary/lib/libmdmdetect.so:system/lib/libmdmdetect.so \
+    vendor/samsung/matissewifi/proprietary/lib/libmdmdetect.so:system/lib/libmdmdetect.so \ # missing
     vendor/samsung/matissewifi/proprietary/vendor/lib/libdiag.so:system/vendor/lib/libdiag.so \
     vendor/samsung/matissewifi/proprietary/vendor/lib/libdsutils.so:system/vendor/lib/libdsutils.so \
     vendor/samsung/matissewifi/proprietary/vendor/lib/libidl.so:system/vendor/lib/libidl.so \
-    vendor/samsung/matissewifi/proprietary/vendor/lib/libnetmgr.so:system/vendor/lib/libnetmgr.so \
+    vendor/samsung/matissewifi/proprietary/vendor/lib/libnetmgr.so:system/vendor/lib/libnetmgr.so \  # missing
     vendor/samsung/matissewifi/proprietary/vendor/lib/libqcci_legacy.so:system/vendor/lib/libqcci_legacy.so \
     vendor/samsung/matissewifi/proprietary/vendor/lib/libqmi_cci.so:system/vendor/lib/libqmi_cci.so \
     vendor/samsung/matissewifi/proprietary/vendor/lib/libqmi_client_qmux.so:system/vendor/lib/libqmi_client_qmux.so \
@@ -39,8 +39,8 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/matissewifi/proprietary/bin/rild:system/bin/rild \
     vendor/samsung/matissewifi/proprietary/bin/rmt_storage:system/bin/rmt_storage \
     vendor/samsung/matissewifi/proprietary/lib/libreference-ril.so:system/lib/libreference-ril.so \
-    vendor/samsung/matissewifi/proprietary/lib/libril.so:system/lib/libril.so \
-    vendor/samsung/matissewifi/proprietary/lib/librilutils.so:system/lib/librilutils.so \
+    vendor/samsung/matissewifi/proprietary/lib/libril.so:system/lib/libril.so \ #missing
+    vendor/samsung/matissewifi/proprietary/lib/librilutils.so:system/lib/librilutils.so \ #missing
     vendor/samsung/matissewifi/proprietary/lib/libsecnativefeature.so:system/lib/libsecnativefeature.so \
     vendor/samsung/matissewifi/proprietary/lib/libsecril-client.so:system/lib/libsecril-client.so \
     vendor/samsung/matissewifi/proprietary/vendor/lib/libconfigdb.so:system/vendor/lib/libconfigdb.so
