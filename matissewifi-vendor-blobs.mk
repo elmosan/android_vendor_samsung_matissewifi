@@ -317,7 +317,7 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/matissewifi/proprietary/vendor/lib/libwfduibcsrcinterface.so:system/vendor/lib/libwfduibcsrcinterface.so \
 	vendor/samsung/matissewifi/proprietary/vendor/lib/libwfduibcsrc.so:system/vendor/lib/libwfduibcsrc.so
 	
-	# WideVine - from bullhead
+# WideVine - from bullhead
 PRODUCT_COPY_FILES += \
     vendor/samsung/matissewifi/proprietary/lib/drm/libdrmwvmplugin.so:system/lib/drm/libdrmwvmplugin.so \
 	vendor/samsung/matissewifi/proprietary/lib/libwvm.so:system/lib/libwvm.so \
@@ -327,10 +327,10 @@ PRODUCT_COPY_FILES += \
 	
 # Camera Testing
 PRODUCT_COPY_FILES += \	
-	vendor/samsung/matissewifi/proprietary/bin/mm-pp-daemon:system/bin/mm-pp-daemon \
-	vendor/samsung/matissewifi/proprietary/vendor/lib/libdisp-aba.so:system/vendor/lib/libdisp-aba.so \
-	vendor/samsung/matissewifi/proprietary/vendor/lib/libmm-abl-oem.so:system/vendor/lib/libmm-abl-oem.so \
-	vendor/samsung/matissewifi/proprietary/vendor/lib/liboemcrypto.so:system/vendor/lib/liboemcrypto.so
+    vendor/samsung/matissewifi/proprietary/bin/mm-pp-daemon:system/bin/mm-pp-daemon \
+    vendor/samsung/matissewifi/proprietary/vendor/lib/libdisp-aba.so:system/vendor/lib/libdisp-aba.so \
+    vendor/samsung/matissewifi/proprietary/vendor/lib/libmm-abl-oem.so:system/vendor/lib/libmm-abl-oem.so \
+    vendor/samsung/matissewifi/proprietary/vendor/lib/liboemcrypto.so:system/vendor/lib/liboemcrypto.so
 	
 # Unknown
 PRODUCT_COPY_FILES += \
